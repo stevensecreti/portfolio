@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<title>Steven Secreti</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Steven Secreti</h1>
+    <h2>Software Engineer and Data Analyst</h2>
+    <img src="images/cover.jpg" alt="cover picture" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Bio</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:whitesmoke">My name is Steven Secreti and I grew up on Long Island, New York. Before graduating high school from Half Hollow Hills West, 
+      I became my senior class <strong>vice president</strong> and was <strong>captain</strong> of the fencing team for 3 years straight. 
+      I am currently studying at <strong>Stony Brook University</strong> working toward a degree in Computer Science with a specialization in artificial intelligence. 
+      I have previously studied at <strong>Columbia University</strong> and have completed a course in Big Data, Machine Learning, and Applied Analytics. I firmly believe that time is
+      the most valuable thing on earth. This has been a driving factor in deciding how I want to spend my life; developing artificial intelligence to maximize efficiency at both the industrial
+      and individual levels. 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Programming</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%;text-align:center">75%</div>
+    </div>
+    <p class="w3-wide">Innovation</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%;text-align:center">85%</div>
+    </div>
+    <p class="w3-wide">Leadership</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%;text-align:center">95%</div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Java</span><br>
+        Fluent
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Cost Efficiency Analytics</span><br>
+        For Starbucks
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4+ Years</span><br>
+        In Customer Service 
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Lead Web Engineer</span><br>
+        For Pick-It Fence
+      </div>
+    </div>
+
+    <a href = "resume/resume.pdf" class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </a>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Traits</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">At the Job</li>
+          <li class="w3-padding-16">Ambitious</li>
+          <li class="w3-padding-16">Dependable</li>
+          <li class="w3-padding-16">Loyal</li>
+          <li class="w3-padding-16">Out Of The Box</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">At Home</li>
+          <li class="w3-padding-16">Film Enthusiast</li>
+          <li class="w3-padding-16">Backyard Philosopher</li>
+          <li class="w3-padding-16">Semi-Professional Gamer</li>
+          <li class="w3-padding-16">Podcaster</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+    <p><span class="w3-large w3-margin-right">Bryan Shea.</span>CEO of Pick-It Fence</p>
+    <p>“Having been able to work along side Steven Secreti’s side for the better half of a year, I can say with the upmost confidence that he is a hard working, committed, and dedicated individual. 10 out of 10 would recommend hiring him.”</p><br>
+    
+    <p><span class="w3-large w3-margin-right">Mr. Smith</span>My 12th Grade Ethics Teacher</p>
+    <p>"Pleasure to have in class"</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/westv.jpg" style="width:100%">
+        <img src="images/prom.jpg" style="width:100%">
+        <img src="images/christmas.jpg" style="width:100%">
+        <img src="images/homecoming.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="images/model.jpg" style="width:100%">
+        <img src="images/juice.jpg" style="width:100%">
+        <img src="images/triple.jpg" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Dix Hills, NY</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Phone: +1(631)-901-3449</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Email: stevensecreti4@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p>
+        <a href="mailto:stevensecreti@gmail.com">
+          <i class="fa fa-paper-plane"></i> Click to Email!
+        </a>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a class="fa fa-facebook-official w3-hover-opacity" href = "https://www.facebook.com/steven.secreti"></a>
+    <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/stevensecreti/"></a>
+    <a class="fa fa-snapchat w3-hover-opacity" href="https://www.snapchat.com/add/stevensecreti"></a>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
